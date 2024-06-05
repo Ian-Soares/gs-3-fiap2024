@@ -18,6 +18,6 @@ COPY --from=build /app /app
 
 USER appuser
 
-EXPOSE 8090
+EXPOSE 9090
 
 CMD ["npm", "start"]

@@ -9,7 +9,7 @@ docker compose up
 ```
 cd app
 docker build --no-cache -t node-test .
-docker container run --rm --name node-test-container -p 9090:8090 node-test:latest
+docker container run --rm --name node-test-container -p 9090:9090 node-test:latest
 ```
 - Nginx example index.html page
 ```
